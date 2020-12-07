@@ -1,6 +1,6 @@
 import '../stylesheets/App.scss';
-import MovieSearchForm from './MovieSearchForm.js';
 import NowPlayingBanner from './NowPlayingBanner.js';
+import NowPlayingMain from './NowPlayingMain.js';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <NowPlayingBanner />
       </header>
-      <MovieSearchForm />
+      <NowPlayingMain />
     </div>
   );
 }

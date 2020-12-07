@@ -1,3 +1,8 @@
+@import '../stylesheets/colors';
+
+// Landing Page
+
+//Projector
 .projector-container {
     float: right;
     width: 50%;
@@ -15,4 +20,16 @@
 .projector-text {
 	text-align: center;
 	font-family: 'Righteous', cursive;
+}
+
+.testbox {
+    background: $nowPlayingThemeGradient;
+    height: 100px;;
+    width: 100%;
+}
+
+//Genre Selection
+.genre-buttons-container {
+    clear:both;
+    background: $nowPlayingThemeGradient;
 }

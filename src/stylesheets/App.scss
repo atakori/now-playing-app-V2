@@ -1,6 +1,6 @@
-body,html {
-  height: 100%;
-}
+// body,html {
+//   height: 100%;
+// }
 
 * {
 	box-sizing: border-box;
@@ -36,385 +36,385 @@ body {
 }
 
 // FROM V1 Application
-.page {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.Site-content {
-  flex: 1;
-}
-
-header h1 {
-	font-size: 50px;
-	margin-left: 20px;
-}
-
-p {
-	font-family: 'Martel', serif;
-}
-
-.view-genre-section {
-	width: 100%;
-}
-
-.projector-display {
-	float: right;
-	width: 50%;
-	margin-right: 20px;
-	object-fit: contain;
-	text-align: center;
-}
-
-.projector-display h2 {
-	font-family: 'Righteous', cursive;
-}
-.projector-display img {
-	height: 100%;
-	width: 100%;
-	border: 1px solid white;
-}
-
-.projector-text {
-	text-align: center;
-	font-family: 'Righteous', cursive;
-}
-
-header h1 {
-	font-family: 'Righteous', cursive;
-}
-
-.genre-section-title {
-	font-family: 'Righteous', cursive;
-	text-align: center;
-	margin-top: 15px
-
-
-}
-.buttons-section {
-	margin-bottom: 20px;
-}
-
-.flex-container {
-	margin-bottom: 20px;
-}
-
-.row {
-	display: flex;
-	justify-content: space-between;
-	margin-left: 2%;
-	margin-right: 2%;
-}
-
-#last-row {
-	justify-content: center;
-}
-.flex-container .row button {
-	width: 23%;
-}
-
-.submit-buttons button {
-	width: 100%;
-}
-
-.clear {
-	clear:both;
-}
-
-.highlightGenreButton {
-	border: 2px yellow solid;
-}
-
-.watch-list {
-	margin: 10px 0;
-	text-align: center;
-    list-style: none;
-}
-.userList {
-	display:flex;
-	text-align:center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.userList li {
-	width: 20%;
-	margin-bottom: 10px;
-}
-
-
-.watch-list-item {
-	color: red;
-	padding: 2%;
-}
-
-.genre-description {
-	font-family: 'Cinzel', serif;
-	margin-top: 20px;
-	font-size: 30px;
-}
-
-fa-star {
-	display:inline;
-}
-
-.movie-score-text {
-	font-family: 'Cinzel', serif;
-	font-size: 28px;
-	margin-bottom: 2px;
-}
-.underline {
-	 text-decoration: underline;
-}
-
-.movie-score {
-	display:block;
-	text-decoration: none;
-    font-size: 50px;
-}
-
-.genre-name {
-	display: block;
-}
-
-
-.morecontent span {
-	display: none;
-}
-
-.genre-button-section {
-	margin-top: 20px;
-}
-
-.btn {
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-}
-
-
-/* Movie Info Section*/
-
-.movie-info {
-	height: 700px;
-}
-
-.movie-title {
-	font-family: 'Righteous', cursive;
-	margin-left: 20px;
-}
-
-.movie-header {
-	display: inline-block;
-	max-width: 49%;
-	width: 50%;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.movie-poster {
-	display: inline-block;
-	max-width: 100%;
-	max-height: 800px;
-	width: auto;
-	height: auto;
-	margin-left: 20px;
-	padding: 2%;
-}
-
-.border {
-	border: 1px #c5c5c5 solid;
-	background: -moz-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ff3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,15,18,0.95)), color-stop(100%, rgba(46,46,46,1))); /* safari4+,chrome */
-	background:-webkit-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* safari5.1+,chrome10+ */
-	background: -o-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* opera 11.10+ */
-	background: -ms-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ie10+ */
-	background:radial-gradient(ellipse at center, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B0F12', endColorstr='#2E2E2E',GradientType=1 ); /* ie6-9 */
-	margin-right: 2%;
-	margin-left: 2%;
-}
-
-.fullScreenWidthBorder {
-	border-top: 1px #c5c5c5 solid;
-	border-bottom: 1px #c5c5c5 solid;
-}
-
-.greyBackground {
-	background: -moz-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ff3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,15,18,0.95)), color-stop(100%, rgba(46,46,46,1))); /* safari4+,chrome */
-	background:-webkit-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* safari5.1+,chrome10+ */
-	background: -o-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* opera 11.10+ */
-	background: -ms-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ie10+ */
-	background:radial-gradient(ellipse at center, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B0F12', endColorstr='#2E2E2E',GradientType=1 ); /* ie6-9 */
-}
-
-.semiTransparentgreyBackground {
-	background: -moz-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* ff3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,15,18,0.95)), color-stop(100%, rgba(46,46,46,1))); /* safari4+,chrome */
-	background:-webkit-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* safari5.1+,chrome10+ */
-	background: -o-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* opera 11.10+ */
-	background: -ms-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* ie10+ */
-	background:radial-gradient(ellipse at center, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B0F12', endColorstr='#2E2E2E',GradientType=1 ); /* ie6-9 */
-}
-
-.right-col {
-	float: right;
-	width: 48%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-.movieDB-synopsis {
-	padding-left: 3%;
-	padding-right: 3%;
-}
-
-.youtube-movie-trailer {
-	width: 100%;
-	height: 400px;
-	padding-left: 3%;
-    padding-right: 3%;
-    margin-top: 10px;
-}
-
-iframe {
-	border: 1px #c5c5c5 solid;
-	background: black;
-	padding-top:2%;
-	padding-bottom:2%;
-}
-
-.critics-section {
-	margin-top: 35px;
-}
-.critics-section h2 {
-	text-align: center;
-	font-family: 'Righteous', cursive;
-}
-
-.NY-times-review {
-	list-style: none;
-	text-align: center;
-}
-
-.NY-times-review a{
-	color: red;
-}
-
-li.NY-times-review {
-	font-family: 'Martel', serif;
-}
-
-.user-reviews-section {
-	margin-top: 30px;
-}
-
-.user-reviews-header {
-	font-family: 'Righteous', cursive;
-	text-align: center;
-}
-
-
-.user-review {
-	border: 1px red solid;
-	list-style: none;
-	font-family: 'Martel', serif;
-}
-
-.watcher-opinions {
-	display:flex;
-}
-
-.watcher-opinions li {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 2%;
-    margin-right: 2%;
-}
-
-.bottom-buttons{
-	width: 100%;
-	text-align: center;
-}
-
-.bottom-buttons button {
-	width: 23%;
-}
-
-a {
-	color: red
-}
-a:visited {
-	color: red
-}
-a.morelink {
-	text-decoration:none;
-	outline: none;
-	color: red;
-}
-
-@media (max-width: 843px) {
-	.projector-display {
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.row {
-	display: block;
-	justify-content: none;
-	margin:0 2%;
-}
-.flex-container .row button {
-	width: 100%;
-	}
-
-}
-
-@media (max-width: 1200px) {
-
-	header h1 {
-	margin-bottom: 20px;
-}
-	.movie-info {
-		width: 100%;
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	.movie-header {
-	display: inline-block;
-	width: 100%;
-	text-align: center;
-	margin: 0 auto;
-}
-
-	.movie-title {
-		margin-left: 0px;
-	}
-
-	.movie-poster {
-		display: inline-block;
-		max-width: 100%;
-		max-height: 800px;
-		width: auto;
-		height: auto;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 2%;
-		margin-bottom: 15px;
-	}
-
-		.right-col {
-		float: none;
-		width: 100%;
-		text-align: center;
-		}
-
-		.bottom-buttons button {
-		width: 100%;
-	}
-}
+// .page {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
+
+// .Site-content {
+//   flex: 1;
+// }
+
+// header h1 {
+// 	font-size: 50px;
+// 	margin-left: 20px;
+// }
+
+// p {
+// 	font-family: 'Martel', serif;
+// }
+
+// .view-genre-section {
+// 	width: 100%;
+// }
+
+// .projector-display {
+// 	float: right;
+// 	width: 50%;
+// 	margin-right: 20px;
+// 	object-fit: contain;
+// 	text-align: center;
+// }
+
+// .projector-display h2 {
+// 	font-family: 'Righteous', cursive;
+// }
+// .projector-display img {
+// 	height: 100%;
+// 	width: 100%;
+// 	border: 1px solid white;
+// }
+
+// .projector-text {
+// 	text-align: center;
+// 	font-family: 'Righteous', cursive;
+// }
+
+// header h1 {
+// 	font-family: 'Righteous', cursive;
+// }
+
+// .genre-section-title {
+// 	font-family: 'Righteous', cursive;
+// 	text-align: center;
+// 	margin-top: 15px
+
+
+// }
+// .buttons-section {
+// 	margin-bottom: 20px;
+// }
+
+// .flex-container {
+// 	margin-bottom: 20px;
+// }
+
+// .row {
+// 	display: flex;
+// 	justify-content: space-between;
+// 	margin-left: 2%;
+// 	margin-right: 2%;
+// }
+
+// #last-row {
+// 	justify-content: center;
+// }
+// .flex-container .row button {
+// 	width: 23%;
+// }
+
+// .submit-buttons button {
+// 	width: 100%;
+// }
+
+// .clear {
+// 	clear:both;
+// }
+
+// .highlightGenreButton {
+// 	border: 2px yellow solid;
+// }
+
+// .watch-list {
+// 	margin: 10px 0;
+// 	text-align: center;
+//     list-style: none;
+// }
+// .userList {
+// 	display:flex;
+// 	text-align:center;
+// 	justify-content: space-around;
+// 	flex-wrap: wrap;
+// }
+
+// .userList li {
+// 	width: 20%;
+// 	margin-bottom: 10px;
+// }
+
+
+// .watch-list-item {
+// 	color: red;
+// 	padding: 2%;
+// }
+
+// .genre-description {
+// 	font-family: 'Cinzel', serif;
+// 	margin-top: 20px;
+// 	font-size: 30px;
+// }
+
+// fa-star {
+// 	display:inline;
+// }
+
+// .movie-score-text {
+// 	font-family: 'Cinzel', serif;
+// 	font-size: 28px;
+// 	margin-bottom: 2px;
+// }
+// .underline {
+// 	 text-decoration: underline;
+// }
+
+// .movie-score {
+// 	display:block;
+// 	text-decoration: none;
+//     font-size: 50px;
+// }
+
+// .genre-name {
+// 	display: block;
+// }
+
+
+// .morecontent span {
+// 	display: none;
+// }
+
+// .genre-button-section {
+// 	margin-top: 20px;
+// }
+
+// .btn {
+// 	font-family: 'Raleway', sans-serif;
+// 	font-size: 13px;
+// }
+
+
+// /* Movie Info Section*/
+
+// .movie-info {
+// 	height: 700px;
+// }
+
+// .movie-title {
+// 	font-family: 'Righteous', cursive;
+// 	margin-left: 20px;
+// }
+
+// .movie-header {
+// 	display: inline-block;
+// 	max-width: 49%;
+// 	width: 50%;
+// 	text-align: center;
+// 	margin: 0 auto;
+// }
+
+// .movie-poster {
+// 	display: inline-block;
+// 	max-width: 100%;
+// 	max-height: 800px;
+// 	width: auto;
+// 	height: auto;
+// 	margin-left: 20px;
+// 	padding: 2%;
+// }
+
+// .border {
+// 	border: 1px #c5c5c5 solid;
+// 	background: -moz-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ff3.6+ */
+// 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,15,18,0.95)), color-stop(100%, rgba(46,46,46,1))); /* safari4+,chrome */
+// 	background:-webkit-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* safari5.1+,chrome10+ */
+// 	background: -o-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* opera 11.10+ */
+// 	background: -ms-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ie10+ */
+// 	background:radial-gradient(ellipse at center, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* w3c */
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B0F12', endColorstr='#2E2E2E',GradientType=1 ); /* ie6-9 */
+// 	margin-right: 2%;
+// 	margin-left: 2%;
+// }
+
+// .fullScreenWidthBorder {
+// 	border-top: 1px #c5c5c5 solid;
+// 	border-bottom: 1px #c5c5c5 solid;
+// }
+
+// .greyBackground {
+// 	background: -moz-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ff3.6+ */
+// 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,15,18,0.95)), color-stop(100%, rgba(46,46,46,1))); /* safari4+,chrome */
+// 	background:-webkit-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* safari5.1+,chrome10+ */
+// 	background: -o-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* opera 11.10+ */
+// 	background: -ms-radial-gradient(center, ellipse cover, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* ie10+ */
+// 	background:radial-gradient(ellipse at center, rgba(11,15,18,0.95) 0%, rgba(46,46,46,1) 100%); /* w3c */
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B0F12', endColorstr='#2E2E2E',GradientType=1 ); /* ie6-9 */
+// }
+
+// .semiTransparentgreyBackground {
+// 	background: -moz-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* ff3.6+ */
+// 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,15,18,0.95)), color-stop(100%, rgba(46,46,46,1))); /* safari4+,chrome */
+// 	background:-webkit-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* safari5.1+,chrome10+ */
+// 	background: -o-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* opera 11.10+ */
+// 	background: -ms-radial-gradient(center, ellipse cover, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* ie10+ */
+// 	background:radial-gradient(ellipse at center, rgba(11,15,18,0.5) 0%, rgba(46,46,46,1000) 100%); /* w3c */
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B0F12', endColorstr='#2E2E2E',GradientType=1 ); /* ie6-9 */
+// }
+
+// .right-col {
+// 	float: right;
+// 	width: 48%;
+// 	text-align: center;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// }
+// .movieDB-synopsis {
+// 	padding-left: 3%;
+// 	padding-right: 3%;
+// }
+
+// .youtube-movie-trailer {
+// 	width: 100%;
+// 	height: 400px;
+// 	padding-left: 3%;
+//     padding-right: 3%;
+//     margin-top: 10px;
+// }
+
+// iframe {
+// 	border: 1px #c5c5c5 solid;
+// 	background: black;
+// 	padding-top:2%;
+// 	padding-bottom:2%;
+// }
+
+// .critics-section {
+// 	margin-top: 35px;
+// }
+// .critics-section h2 {
+// 	text-align: center;
+// 	font-family: 'Righteous', cursive;
+// }
+
+// .NY-times-review {
+// 	list-style: none;
+// 	text-align: center;
+// }
+
+// .NY-times-review a{
+// 	color: red;
+// }
+
+// li.NY-times-review {
+// 	font-family: 'Martel', serif;
+// }
+
+// .user-reviews-section {
+// 	margin-top: 30px;
+// }
+
+// .user-reviews-header {
+// 	font-family: 'Righteous', cursive;
+// 	text-align: center;
+// }
+
+
+// .user-review {
+// 	border: 1px red solid;
+// 	list-style: none;
+// 	font-family: 'Martel', serif;
+// }
+
+// .watcher-opinions {
+// 	display:flex;
+// }
+
+// .watcher-opinions li {
+// 	margin-top: 10px;
+// 	margin-bottom: 10px;
+// 	margin-left: 2%;
+//     margin-right: 2%;
+// }
+
+// .bottom-buttons{
+// 	width: 100%;
+// 	text-align: center;
+// }
+
+// .bottom-buttons button {
+// 	width: 23%;
+// }
+
+// a {
+// 	color: red
+// }
+// a:visited {
+// 	color: red
+// }
+// a.morelink {
+// 	text-decoration:none;
+// 	outline: none;
+// 	color: red;
+// }
+
+// @media (max-width: 843px) {
+// 	.projector-display {
+// 		float: none;
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 	}
+
+// 	.row {
+// 	display: block;
+// 	justify-content: none;
+// 	margin:0 2%;
+// }
+// .flex-container .row button {
+// 	width: 100%;
+// 	}
+
+// }
+
+// @media (max-width: 1200px) {
+
+// 	header h1 {
+// 	margin-bottom: 20px;
+// }
+// 	.movie-info {
+// 		width: 100%;
+// 		text-align: center;
+// 		margin: 0 auto;
+// 	}
+
+// 	.movie-header {
+// 	display: inline-block;
+// 	width: 100%;
+// 	text-align: center;
+// 	margin: 0 auto;
+// }
+
+// 	.movie-title {
+// 		margin-left: 0px;
+// 	}
+
+// 	.movie-poster {
+// 		display: inline-block;
+// 		max-width: 100%;
+// 		max-height: 800px;
+// 		width: auto;
+// 		height: auto;
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 		padding: 2%;
+// 		margin-bottom: 15px;
+// 	}
+
+// 		.right-col {
+// 		float: none;
+// 		width: 100%;
+// 		text-align: center;
+// 		}
+
+// 		.bottom-buttons button {
+// 		width: 100%;
+// 	}
+// }

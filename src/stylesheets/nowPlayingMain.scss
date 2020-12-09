@@ -86,3 +86,34 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.highlight-button-border {
+    border: 2px yellow solid;
+}
+
+//Projector Section
+
+.projector-image-main{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+img.projector-image {
+    border: 1px solid white;
+}
+
+.projector-image {
+    max-height: 360px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.show-image {
+    display: inline-block;
+}
+
+.hide-image {
+    display: none;
+}

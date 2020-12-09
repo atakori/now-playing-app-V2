@@ -1,19 +1,13 @@
 import React from 'react';
 
-class GenreButton extends React.Component {
-constructor(props) {
-    super(props);
-
-    this.state = {
-        //none for now... jsut setting this up
-    }
+const GenreButton = (props) => {
+    return (
+        <button className={createClassName(props)} onClick={props.handleClick}>{props.genreName}</button>
+    )
 }
 
-    render() {
-        return (
-            <button className={"btn " + this.props.buttonClass} >{this.props.genreName}</button>
-        )
-    }
+function createClassName(props){
+    return props.selected ? ( "btn highlight-button-border " + props.buttonClass): ( "btn " + props.buttonClass)
 }
 
 export default GenreButton;

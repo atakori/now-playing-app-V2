@@ -6,6 +6,7 @@ import adventureImg from '../media/projector_stills/hp1.jpg'
 const ProjectorScreen = (props) => {
     return (
         <div className="projector-container">
+            {/* Need to remember to make the h2 title dynamic text via a helper function* -- see original renderGenreBackground fxn in api.js */}
             <h2>What do you want to watch?</h2>
             <div className="projector-image-main">
                 <video className = {!props.selectedGenre ? "projector-image" : "hide-image"} width="100%" height="100%" autoPlay loop muted> 

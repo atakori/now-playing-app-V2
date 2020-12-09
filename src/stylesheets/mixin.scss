@@ -1,0 +1,10 @@
+@mixin genre-button-color($baseColor) {
+    background-color: $baseColor;
+    color: white;
+    width: 20%;
+
+    &:hover{
+        background-color: lighten($baseColor, 7%);
+        color: white;
+    }
+}

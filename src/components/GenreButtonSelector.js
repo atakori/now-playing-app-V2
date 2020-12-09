@@ -3,13 +3,15 @@ import GenreButton from './GenreButton';
 
 function GenreButtonSelector() {
     return (
-        <div className= "genre-buttons-container">
-            <h2>Select a genre!</h2>
-            {/* Buttons here */}
-            <GenreButton genreName="Action"/>
-            <GenreButton genreName="Adventure"/>
-            <GenreButton genreName="Animation"/>
-            <GenreButton genreName="Comedy"/>
+        <div className= "genre-selector-container">
+            <h2 className = "genre-container-title">Select a genre!</h2>
+            <div className = "genre-buttons-container">
+                <GenreButton buttonClass= "btn-light-red" genreName="Action"/>
+                <GenreButton buttonClass= "btn-indigo" genreName="Adventure"/>
+                <GenreButton buttonClass= "btn-teal" genreName="Animation"/>
+                <GenreButton buttonClass= "btn-amber" genreName="Comedy"/>
+                {/* REST OF BUTTONS TO BE IMPLEMENTED AFTER FUNCTIONALITY FETCH REQUEST IMPLEMENTATION */}
+            </div>
         </div>
     )
 }

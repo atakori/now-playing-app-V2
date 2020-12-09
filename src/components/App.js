@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../stylesheets/App.scss';
 import NowPlayingBanner from './NowPlayingBanner.js';
 import NowPlayingMain from './NowPlayingMain.js';

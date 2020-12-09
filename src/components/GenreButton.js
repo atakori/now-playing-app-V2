@@ -11,9 +11,7 @@ constructor(props) {
 
     render() {
         return (
-            <div>
-                <button>{this.props.genreName}</button>
-            </div>
+            <button className={"btn " + this.props.buttonClass} >{this.props.genreName}</button>
         )
     }
 }

@@ -1,4 +1,5 @@
-@import '../stylesheets/colors';
+@import '../stylesheets/colors.scss';
+@import '../stylesheets/mixin.scss';
 
 // Landing Page
 
@@ -29,7 +30,59 @@
 }
 
 //Genre Selection
-.genre-buttons-container {
+
+.genre-selector-container {
     clear:both;
     background: $nowPlayingThemeGradient;
+    border-top: 1px $white-border solid;
+    border-bottom: 1px $white-border solid;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .h2 {
+        text-align: center;
+    }
+}
+
+.genre-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.genre-container-title {
+    text-align: center;
+    margin-top: 15px;
+}
+
+//buttons_colors
+.btn-light-red {
+    @include genre-button-color($lighter-red);
+}
+
+.btn-indigo {
+    @include genre-button-color($indigo);
+}
+
+.btn-teal {
+    @include genre-button-color($teal);
+}
+
+.btn-amber {
+    @include genre-button-color($amber);
+}
+
+.btn-submit-blue {
+    @include genre-button-color($submit-blue);
+}
+
+.btn-red {
+    @include genre-button-color($red);
+}
+
+//submit buttons
+.submit-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
 }
